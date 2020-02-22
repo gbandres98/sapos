@@ -25,7 +25,7 @@ module.exports = {
       }
     }
   },
-  modules: ["~/io", "nuxt-clipboard2"],
+  modules: ["nuxt-clipboard2"],
   buildModules: ["@nuxtjs/vuetify"],
   vuetify: {
     customVariables: ["~/assets/scss/variables.scss"],
