@@ -1,6 +1,7 @@
 <template>
   <v-container>
     <v-row justify="center">
+      <v-icon class="exit-icon">exit_to_app</v-icon>
       <v-tooltip
         right
         :open-on-hover="false"
@@ -60,5 +61,11 @@ export default {
 <style lang="scss" scoped>
 .room-code {
   cursor: pointer;
+  margin-right: auto;
+}
+
+.exit-icon {
+  margin-left: 20px;
+  margin-right: auto;
 }
 </style>

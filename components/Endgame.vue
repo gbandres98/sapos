@@ -27,7 +27,7 @@
         <h5 v-else>ganador!</h5>
       </div>
     </div>
-    <v-btn color="primary" href="https://sapos.gbandres.com">salir</v-btn>
+    <v-btn color="primary" href="http://sapos.gbandres.com">salir</v-btn>
   </div>
 </template>
 
