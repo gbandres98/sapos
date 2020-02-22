@@ -2,11 +2,15 @@ const colors = require("vuetify/es5/util/colors").default;
 
 module.exports = {
   head: {
-    title: "starter",
+    title: "sapos",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "Nuxt.js project" }
+      {
+        hid: "description",
+        name: "description",
+        content: "el juego de los sapos"
+      }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
