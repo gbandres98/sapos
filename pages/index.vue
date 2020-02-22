@@ -67,7 +67,7 @@ export default {
   },
   computed: {
     validRoom() {
-      return this.room.length >= 6;
+      return this.room.length >= 4;
     }
   },
   methods: {

@@ -1,7 +1,9 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-icon class="exit-icon">exit_to_app</v-icon>
+      <a class="exit-icon" href="http://sapos.gbandres.com">
+        <v-icon>exit_to_app</v-icon>
+      </a>
       <v-tooltip
         right
         :open-on-hover="false"
