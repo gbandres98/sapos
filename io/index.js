@@ -10,13 +10,11 @@ const rooms = {};
 
 export default function() {
   this.nuxt.hook("render:before", renderer => {
-    console.log("A");
     const server = http.createServer(this.nuxt.renderer.app);
     const io = socketIO(server);
-    console.log("B");
     // overwrite nuxt.server.listen()
     this.nuxt.server.listen = (port, host) => {
-      console.log("C");
+      console.log(port + " " + host);
       return new Promise(resolve =>
         server.listen(port || 3000, host || "localhost", resolve)
       );
@@ -178,8 +176,6 @@ export default function() {
       });
     });
   });
-
-  console.log("D");
 }
 
 const generateRoomCode = () => {
